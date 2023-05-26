@@ -1,0 +1,10 @@
+POST http://localhost:8010/v1/users/cccd/qr-codes/scan
+Content-Type: multipart/form-data; boundary=boundary
+
+--boundary
+Content-Disposition: form-data; name="frontCCCDImage"; filename="front_cccd_2.jpg"
+
+< ../../../../../Downloads/hdss/f
+--boundary--
+
+###

@@ -1,0 +1,10 @@
+version: '3'
+services:
+  postgres-identity-sense:
+    image: postgres:15
+    environment:
+      POSTGRES_PASSWORD: password
+      POSTGRES_USER: admin
+      POSTGRES_DB: identity_sense_service
+    ports:
+      - "5439:5432"
